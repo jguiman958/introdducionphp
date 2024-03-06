@@ -1,24 +1,23 @@
 <?php
-//5. Escribe un script PHP que realice la simulación de lanzar un dado y muestre una imagen con un valor aleatorio entre 1 y 6. Resuelva el ejercicio utilizando la estructura de control switch.
 $numAleatorio=rand(1,6);
-    switch ($numAleatorio) 
+if ($numAleatorio==1)
     {
-        case 1:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/1.PNG'>";
-            break;
-        case 2:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/2.png'>";
-            break;
-        case 3:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/3.PNG'>";
-            break;
-        case 4:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/4.PNG'>";
-            break;
-        case 5:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/5.PNG'>";
-            break;
-        case 6:
-            echo "<img src='introdducionphp/src/01-estructuras-control/images/dice/6..PNG'>";
-            break;
+        echo "<center><img src='images/dice/1.PNG'></center>";
+    } else if ($numAleatorio==2) 
+        {
+            echo "<center><img src='images/dice/2.png'></center>";
+        } else if ($numAleatorio==3)
+            {
+                echo "<center><img src='images/dice/3.PNG'></center>";
+            } else if ($numAleatorio==4)
+                {
+                    echo "<center><img src='images/dice/4.PNG'></center>";
+                } else if ($numAleatorio==5)
+                    {
+                        echo "<center><img src='images/dice/5.PNG'></center>";
+                    } else if ($numAleatorio==6)
+                        {
+                            echo "<center><img src='images/dice/6..PNG'></center>";
+                        }
+
 ?>
