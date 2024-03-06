@@ -7,7 +7,7 @@ $numAleatorio=rand(1,6);
             echo "<center><img src='images/dice/1.PNG'></center>";
             break;
         case 2:
-            echo "<center><img src='images/dice/2.png'></center>";
+            echo "<center><img src='images/dice/2.PNG'></center>";
             break;
         case 3:
             echo "<center><img src='images/dice/3.PNG'></center>";
