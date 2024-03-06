@@ -23,6 +23,6 @@ $numAleatorio=rand(1,6);
             break;
     }
     $lanzarDado=rand(1,6);
-    echo "<footer><img src='images/dice2/$lanzarDado.PNG'></footer>";
+    echo "<img src='images/dice2/$lanzarDado.PNG'>";
 
 ?>
