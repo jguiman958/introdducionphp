@@ -13,7 +13,7 @@ echo "<table border=1>";
                     echo "<td>$numerorand</td>";
                     echo "<td>x</td>";
                     echo "<td>$i</td>";
-                    echo "<td>($numerorand * $i)</td> <br>";
+                    echo "<td>($numerorand * $i)</td>";
                 echo "</tr>"; # Hecho pero pendiente
             }
         }
