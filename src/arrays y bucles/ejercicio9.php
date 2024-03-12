@@ -50,6 +50,4 @@ foreach ($asociativo as $key2 => $clave2)
 {
     echo "Clave: = $clave2 ";
 }
-
-
 ?>
