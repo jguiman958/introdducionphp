@@ -23,9 +23,13 @@ for ($i=1;$i<=10;$i++)
     # Seguidamente necesito el total de numeros que hay en el array, realizado con la función count.
     $total_numeros = count($numerosRango);
     # Finalmente realizo la media, para sacar la media se debe emplear la suma de todos los numeros, divido entre el total de todas los numeros.
-    $media = $suma/$total_numeros;
+    $media = $suma/$total_numeros . "\n";
 
 #    Calcular la media.En una sola linea
 #    $media = array_sum($numerosRango)/count($numerosRango);
 }
+echo "<br>";
+echo "#----------------------------------#";
+echo "<br>";
+echo "La media es: " . $media;
 ?>

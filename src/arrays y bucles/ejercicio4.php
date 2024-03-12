@@ -20,7 +20,7 @@ for ($i=1;$i<=10;$i++)
 echo "<br>";
 echo "#-----------------------------#" . "\n" . "<br>";
 # Sacamos el valor mínimo del array
-$maximo = min($numerosRango);
+$minimo = min($numerosRango);
 # Mostramos la salida por pantalla.
-echo "El valor máximo del array es: " . $maximo;
+echo "El valor mínimo del array es: " . $minimo;
 ?>

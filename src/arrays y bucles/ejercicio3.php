@@ -19,7 +19,7 @@ for ($i=1;$i<=10;$i++)
 }  
 echo "<br>";
 echo "#-----------------------------#" . "\n" . "<br>";
-# Sacanis el valor máximo del array
+# Sacamos el valor máximo del array
 $maximo = max($numerosRango);
 # Mostramos la salida por pantalla.
 echo "El valor máximo del array es: " . $maximo;
