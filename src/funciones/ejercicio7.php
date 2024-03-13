@@ -15,7 +15,7 @@ function calcular_minimo($rangoArray)
 $r = calcular_minimo(20);
 echo "<br>";
 echo "#-------------------------#";
-echo "<br>";
 echo "Salida de la función = " ;
 print_r($r);
+
 ?>

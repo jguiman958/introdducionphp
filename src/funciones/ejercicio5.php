@@ -1,10 +1,10 @@
 <?php
-echo "4. Escribe una función llamada calcular_maximo que reciba un array como parámetro de entrada y que devuelva la media de todos los valores que contiene.";
+echo "4. Escribe una función llamada calcular_maximo que reciba un array como parámetro de entrada y que devuelva el maximo de todos los valores que contiene.";
 echo "<br>";
 function calcular_maximo($rangoArray)
 {
    $numeros = array(); 
-   for ($i;$i<=$rangoArray;$i++)
+   for ($i=0;$i<=$rangoArray;$i++)
    {
         echo $numeros[] = $i;
    }
