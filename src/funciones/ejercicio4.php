@@ -4,7 +4,7 @@ echo "<br>";
 function calcular_media($rangoArray)
 {
    $numeros = array(); 
-   for ($i;$i<=$rangoArray;$i++)
+   for ($i=1;$i<=$rangoArray;$i++)
    {
         $numeros[] = $i;
         # En varias lineas
@@ -22,7 +22,7 @@ function calcular_media($rangoArray)
    return $media;
 }
 # Metemos la salida de una función en una variable, y la mostramos por pantalla.
-$r = calcular_media(3);
+$r = calcular_media(74);
 echo "<br>";
 echo "Salida de la función.";
 print_r($r);
